@@ -21,6 +21,7 @@ CSS Index
 11. Footer
 12. Back To Top Button
 13. Contact Page 
+14. Preloader
 */
 
 
@@ -1021,7 +1022,7 @@ p {
     position: absolute !important;
     margin-left: 20px;
 }
-/* 14. Preloader */
+
 #preloader {
     position: fixed;
     width: 100%;
