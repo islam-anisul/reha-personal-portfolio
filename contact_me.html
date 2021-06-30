@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- all css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- all css link -->
+    <title>Contact | ReHa|Personal Portfolio template</title>
+</head>
+
+<body>
+    <!-- top bar / navbar start -->
+    <header>
+        <section id="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="main_menu">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo/logo.png" alt="LoGo" class="img-fluid"></a>
+                            </div>
+                            <div class="menu_toggle">
+                                <div class="toggle_btn"></div>
+                            </div>
+                            <div class="menu_list">
+                                <ul class="menu_item">
+                                    <li class="menu_link"><a href="index.html">home</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--top bar / navbar end-->
+    <!--main content start-->
+    <main>
+        <!-- banner start -->
+        <section id="contact_banner">
+            <div class="contact_overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="contact_ban_item text_color_white text-center">
+                                <h1>Home <span><img src="img/icons/contact_ban_p;rocess.png" alt=""></span> Contact Me
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner start -->
+        <!-- contact form -->
+        <section id="contact_me" class="section_gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="section_title">
+                            <h3 class="title">Contact Me</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row inner_section_padding">
+                    <div class="col-lg-10 col-md-12 col-sm-12 col-12 m-auto">
+                        <div class="form_content">
+                            <form action="#" method="POST" onsubmit="return contactvalidation()">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" id="fname" placeholder="First Name"
+                                                autocomplete="off">
+                                            <span id="fname_err"></span>
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" id="lname" placeholder="Last Name"
+                                                autocomplete="off">
+                                            <span id="lname_err"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email ID"
+                                        autocomplete="off">
+                                    <span id="email_err"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="sbj" placeholder="Subject"
+                                        autocomplete="off">
+                                    <span id="sub_err"></span>
+                                </div>
+                                <div class="form-group">
+                                    <select name="lettertype" id="lettertype" class="form-control">
+                                        <option value="1" selected>Select Letter Type</option>
+                                        <option value="proposal">Proposal</option>
+                                        <option value="invite">Invitation</option>
+                                    </select>
+                                    <span id="letter_err"></span>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" id="message" rows="5" class="form-control"></textarea>
+                                    <span id="msg_err"></span>
+                                </div>
+                                <span class="upload_group">
+                                    <label for="attach_btn" id="fileupload">
+                                        <button class="btn_secondery file_up_btn" id="attach_btn"><i class="fa fa-file-archive-o"></i>
+                                            Attach File</button>
+                                    </label>
+                                    <input type="file" id="upload_btn">
+                                </span>
+                                <button class="btn_secondery send_btn" type="submit"><i class="fa fa-paper-plane-o"></i>
+                                    Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact form end -->
+    </main>
+    <!--main content end-->
+    <!--footer start-->
+    <footer>
+        <section id="footer" class="background_dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="footer_content text_color_white">
+                            <div class="footer_item">
+                                <h4>John Snow</h4>
+                            </div>
+                            <div class="footer_link_wrapper">
+                                <div class="footer_item explore">
+                                    <span>Explore</span>
+                                    <div class="item_link">
+                                        <a href="index.html">Home</a>
+                                    </div>
+                                </div>
+                                <div class="footer_item about">
+                                    <span>About</span>
+                                    <div class="item_link">
+                                        <a href="#">Privacy Notice</a>
+                                        <a href="#">Interested Ads</a>
+                                        <a href="#">Terms of Service</a>
+                                        <a href="#">Career</a>
+                                    </div>
+                                </div>
+                                <div class="footer_item contact">
+                                    <span>Contact</span>
+                                    <div class="item_link">
+                                        <a href="#">Support</a>
+                                        <a href="#">Newsroom</a>
+                                    </div>
+                                </div>
+                                <div class="footer_item connect">
+                                    <span>Connect</span>
+                                    <div class="item_link">
+                                        <a href="#">Email Newsletter</a>
+                                        <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+                                        <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                                        <a href="#"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                                        <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+                                        <a href="#"><i class="fa fa-github"></i> Gituhub</a></div>
+                                </div>
+                            </div>
+                            <div class="footer_item copyright">
+                                <h3>ReHa</h3>
+                                <p><i class="fa fa-copyright"></i> Copyright 2021 - Anisul Islam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--footer end-->
+    <!-- js link -->
+    <script>
+        function contactvalidation() {
+            var firstname = document.getElementById("fname").value;
+            var lastname = document.getElementById("lname").value;
+            var emailid = document.getElementById("email").value;
+            var subjct = document.getElementById("sbj").value;
+            var massg = document.getElementById("message").value;
+
+            if (firstname == "") {
+                document.getElementById("fname_err").innerHTML = "*Write First Name"
+                return false;
+            } else if (firstname.length < 2) {
+                document.getElementById("fname_err").innerHTML = "*First can't less than 2 characters"
+                return false;
+            } else if (!isNaN(firstname)) {
+                document.getElementById("fname_err").innerHTML = "*First name can't be number"
+                return false;
+            } else {
+                document.getElementById("fname_err").innerHTML = "";
+            }
+
+            if (lastname == "") {
+                document.getElementById("lname_err").innerHTML = "*Write Last name"
+                return false;
+            } else if (lastname.length < 2) {
+                document.getElementById("lname_err").innerHTML = "*Last can't less than 2 characters"
+                return false;
+            } else if (!isNaN(lastname)) {
+                document.getElementById("lname_err").innerHTML = "*Last name can't be number"
+                return false;
+            } else {
+                document.getElementById("lname_err").innerHTML = "";
+            }
+
+            if (emailid == "") {
+                document.getElementById("email_err").innerHTML = "*Please write email Address"
+                return false;
+            } else if (emailid.indexOf('@') <= 0) {
+                document.getElementById("email_err").innerHTML = "*Invalid email address format"
+                return false;
+            } else if ((emailid.charAt(emailid.length - 4) != '.') && (emailid.charAt(emailid.length - 3) != '.')) {
+                document.getElementById("email_err").innerHTML = "*Invalid email address format"
+                return false;
+            } else {
+                document.getElementById("email_err").innerHTML = "";
+            }
+
+            if (subjct == "") {
+                document.getElementById("sub_err").innerHTML = "*Write subject"
+                return false;
+            } else if (subjct.length < 10) {
+                document.getElementById("sub_err").innerHTML = "*Subject should at least 10 characters"
+                return false;
+            } else {
+                document.getElementById("sub_err").innerHTML = "";
+            }
+
+            if (massg == "") {
+                document.getElementById("msg_err").innerHTML = "*Write your MSG"
+                return false;
+            } else if (massg.length < 20) {
+                document.getElementById("msg_err").innerHTML = "*MSG should at least 20 characters"
+                return false;
+            } else {
+                document.getElementById("msg_err").innerHTML = "";
+            }
+        };
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

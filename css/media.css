@@ -1,0 +1,564 @@
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    /* common */
+    .section_gap {
+        margin-top: 50px;
+    }
+    .inner_section_padding {
+        padding: 35px 0;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .content_title {
+        font-size: 20px;
+    }
+    .inner_content_margin {
+        margin-top: 20px;
+    }
+    .btn_primary, .btn_secondery {
+        font-size: 18px;
+        padding: 3px 15px;
+        font-weight: 400;
+    }
+    .top_margin{
+        margin-top: 15px;
+    }
+    .back_top .back_btn {
+        height: 20px;
+        width: 20px;
+       
+    }
+    /* topbar */
+    #topbar{
+        background: #000000;
+        padding: 30px 0;
+    }
+    .logo {
+        position: fixed;
+        left: 15px;
+        top: 14px;
+    }
+    .logo a img {
+        height: 22px;
+    }
+    .menu_list{
+        width: 100%;
+    }
+    .menu_item {
+        display: flex;
+        flex-direction: column;    
+        text-align: center;
+    }  
+    .menu_toggle {
+        display: block;
+        top: 14px;
+        right: 15px;
+    }
+/* topbar */
+/* banner */
+.banner_left_item {
+	padding-top: 220px;
+}
+.banner_left_item h1 {
+	font-size: 32px;
+}
+.banner_left_item h4 {
+	font-size: 22px;
+	margin-top: 25px;
+}
+.banner_left_item .btn_primary {
+	margin-top: 25px;
+}
+.banner_right_box {
+	padding-top: 220px;
+}
+.box_item {
+	height: auto;
+	margin-top: 0;
+}
+.box_item .box_icon img {
+	height: 40px;
+	width: auto;
+}
+.box_item .box_icon::after {
+	top: -19px;
+	right: -6px;
+}
+.box_title {
+	padding-top: 0px;
+}
+.box_title h4 {
+	font-size: 20px;
+}
+.box_item .detail {
+	padding: 25px 15px;
+}
+/* about */
+
+.academic_item span {
+	font-size: 20px;
+}
+.academic_item h4 {
+	font-size: 16px;
+}
+
+.counter_item img{
+    height: 65px;
+}
+.count_data {
+	font-size: 24px;
+	margin-top: 11px;
+}
+.count_text {
+	font-size: 20px;
+	margin-top: 11px;
+}
+.modalbtn {
+	padding: 3px 15px;
+	font-size: 18px;
+}
+#avalable {
+	padding: 50px 0;
+}
+/* portfolio */
+.data_filter_btn {
+	font-size: 18px;
+	padding: 3px 5px;
+    margin-top: 5px;
+}
+/* contact */
+.contact_info_box {
+	width: 80%;
+}
+/* footer */
+#footer {
+	padding: 50px 0;
+}
+.footer_item .item_link a {
+	margin-left: 10px;
+	font-size: 15px;
+}
+/* contact page */
+#contact_banner .contact_overlay .contact_ban_item h1 {
+	font-size: 32px;
+}
+}
+
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* common */
+    .section_gap {
+        margin-top: 50px;
+    }
+    .inner_section_padding {
+        padding: 35px 0;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .content_title {
+        font-size: 20px;
+    }
+    .inner_content_margin {
+        margin-top: 20px;
+    }
+    .btn_primary, .btn_secondery {
+        font-size: 18px;
+        padding: 3px 15px;
+        font-weight: 400;
+    }
+    .top_margin{
+        margin-top: 15px;
+    }
+    .back_top .back_btn {
+        height: 20px;
+        width: 20px;
+       
+    }
+    /* topbar */
+    #topbar{
+        background: #000000;
+    }
+    .logo {
+        position: fixed;
+        left: 15px;
+        top: 14px;
+    }
+    .logo a img {
+        height: 22px;
+    }
+    .menu_list{
+        width: 100%;
+    }
+    .menu_item {
+        display: flex;
+        flex-direction: column;    
+        text-align: center;
+    }  
+    .menu_toggle {
+        display: block;
+        top: 14px;
+        right: 15px;
+    }
+/* topbar */
+/* banner */
+.banner_left_item {
+	padding-top: 150px;
+}
+.banner_left_item h1 {
+	font-size: 32px;
+}
+.banner_left_item h4 {
+	font-size: 24px;
+    margin-top: 13px;
+}
+.banner_left_item .btn_primary {
+	margin-top: 13px;
+}
+.banner_right_box {
+	padding-top: 60px;
+}
+.box_item {
+	height: auto;
+	margin-top: 0;
+}
+.box_item .box_icon img {
+	height: 40px;
+	width: auto;
+}
+.box_item .box_icon::after {
+	top: -19px;
+	right: -6px;
+}
+.box_title {
+	padding-top: 0px;
+}
+.box_title h4 {
+	font-size: 20px;
+}
+.box_item .detail {
+	padding: 25px 15px;
+}
+/* about */
+.about_right {
+	padding-top: 35px;
+}
+.academic_item span {
+	font-size: 20px;
+}
+.academic_item h4 {
+	font-size: 20px;
+}
+.experience{
+    margin-top: 35px;
+}
+.counter_item img{
+    height: 65px;
+}
+.count_data {
+	font-size: 24px;
+	margin-top: 11px;
+}
+.count_text {
+	font-size: 20px;
+	margin-top: 11px;
+}
+.modalbtn {
+	padding: 3px 15px;
+	font-size: 18px;
+}
+#avalable {
+	padding: 50px 0;
+}
+/* portfolio */
+.data_filter_btn {
+	font-size: 14px;
+	padding: 3px 2px;
+	margin-top: 5px;
+}
+/* contact */
+.contact_info_box {
+	padding: 20px;
+	display: grid;
+	place-items: center;
+	width: 100%;
+	box-shadow: 0 0 8px rgba(34, 34, 34, 0.63);
+}
+.contact_form{
+    margin-top: 35px;
+}
+/* footer */
+#footer {
+	padding: 50px 0;
+}
+/* contact */
+#contact_banner .contact_overlay .contact_ban_item h1 {
+	font-size: 32px;
+}
+/* back to top */
+.back_top {
+    right: 15px;
+    bottom: 30px;
+}
+.back_top {
+    right: 15px;
+    bottom: 30px;
+}
+}
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* common */
+    .section_gap {
+        margin-top: 50px;
+    }
+    .inner_section_padding {
+        padding: 35px 0;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .content_title {
+        font-size: 20px;
+    }
+    .inner_content_margin {
+        margin-top: 20px;
+    }
+    .btn_primary, .btn_secondery {
+        font-size: 18px;
+        padding: 3px 15px;
+        font-weight: 400;
+    }
+    .top_margin{
+        margin-top: 15px;
+    }
+    .back_top .back_btn {
+        height: 20px;
+        width: 20px;       
+    }
+    /* topbar */
+    #topbar{
+        background: #000000;
+    }
+    .logo {
+        position: fixed;
+        left: 15px;
+        top: 14px;
+    }
+    .logo a img {
+        height: 22px;
+    }
+    .menu_list{
+        width: 100%;
+    }
+    .menu_item {
+        display: flex;
+        flex-direction: column;    
+        text-align: center;
+    }  
+    .menu_toggle {
+        display: block;
+        top: 14px;
+    }
+/* topbar */
+/* banner */
+.banner_left_item {
+	padding-top: 115px;
+}
+.banner_left_item h1 {
+	font-size: 32px;
+}
+.banner_left_item h4 {
+	font-size: 24px;
+    margin-top: 13px;
+}
+.banner_left_item .btn_primary {
+	margin-top: 13px;
+}
+.banner_right_box {
+	padding-top: 50px;
+}
+.box_item {
+	height: auto;
+	margin-top: 0;
+}
+.box_item .box_icon img {
+	height: 40px;
+	width: auto;
+}
+.box_item .box_icon::after {
+	top: -19px;
+	right: -6px;
+}
+.box_title {
+	padding-top: 0px;
+}
+.box_title h4 {
+	font-size: 20px;
+}
+.box_item .detail {
+	padding: 25px 15px;
+}
+/* about */
+.about_right {
+	padding-top: 35px;
+}
+.academic_item span {
+	font-size: 20px;
+}
+.academic_item h4 {
+	font-size: 20px;
+}
+.counter_item img{
+    height: 65px;
+}
+.count_data {
+	font-size: 24px;
+	margin-top: 11px;
+}
+.count_text {
+	font-size: 20px;
+	margin-top: 11px;
+}
+.modalbtn {
+	padding: 3px 15px;
+	font-size: 18px;
+}
+#avalable {
+	padding: 50px 0;
+}
+/* portfolio */
+.data_filter_btn {
+	font-size: 15px;
+	padding: 2px 2px;
+}
+/* contact */
+.contact_info_box {
+	padding: 20px;
+	display: grid;
+	place-items: center;
+	width: 100%;
+	box-shadow: 0 0 8px rgba(34, 34, 34, 0.63);
+}
+.contact_form{
+    margin-top: 35px;
+}
+/* footer */
+#footer {
+	padding: 50px 0;
+}
+.footer_item .item_link a {
+	margin-left: 17px;
+	font-size: 15px;
+}
+/* contact page */
+#contact_banner .contact_overlay .contact_ban_item h1 {
+	font-size: 32px;
+}
+/* back to top */
+.back_top {
+    right: 15px;
+    bottom: 30px;
+}
+}
+
+@media (max-width: 380px){
+        /* common */
+        .section_gap {
+            margin-top: 50px;
+        }
+        .inner_section_padding {
+            padding: 35px 0;
+        }
+        .title {
+            font-size: 24px;
+        }
+        .content_title {
+            font-size: 20px;
+        }
+        .inner_content_margin {
+            margin-top: 20px;
+        }
+        .btn_primary, .btn_secondery {
+            font-size: 18px;
+            padding: 3px 15px;
+            font-weight: 400;
+        }
+        .top_margin{
+            margin-top: 15px;
+        }
+        .back_top .back_btn {
+            height: 20px;
+            width: 20px;       
+        }
+        /* topbar */
+        #topbar{
+            background: #000000;
+        }
+        .logo {
+            position: fixed;
+            left: 15px;
+            top: 14px;
+        }
+        .logo a img {
+            height: 22px;
+        }
+        .menu_list{
+            width: 100%;
+        }
+        .menu_item {
+            display: flex;
+            flex-direction: column;    
+            text-align: center;
+        }  
+        .menu_toggle {
+            display: block;
+            top: 14px;
+        }
+    /* topbar */
+    /* banner */
+    .banner_left_item {
+        padding-top: 115px;
+    }
+    .banner_left_item h1 {
+        font-size: 28px;
+    }
+    .banner_left_item h4 {
+        font-size: 19px;
+        margin-top: 13px;
+    }
+    /* about */
+    .academic_item h4 {
+        font-size: 18px;
+    }
+    .academic_item h4 {
+        font-size: 16px;
+    }
+    /* testimonial */
+    .testimonial_header{
+        font-size: 18px;
+    }
+    .testimonial_item {
+        padding: 16px 6px;
+    }
+    /* footer */
+    .footer_item .item_link a {
+        margin-left: 6px;
+        font-size: 15px;
+    }
+    /* back to top */
+    .back_top {
+        right: 15px;
+        bottom: 30px;
+    }
+}
